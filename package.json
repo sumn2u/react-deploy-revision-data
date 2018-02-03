@@ -1,0 +1,32 @@
+{
+  "name": "react-deploy-revision-data",
+  "version": "0.0.1",
+  "description": "buildings plugin to generate data about this deploy revision including a unique revision key based on the current build for creat react app",
+  "main": "index.js",
+  "author": "Suman Kunwar",
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/runner.js && ./node_modules/.bin/eslint index.js lib/* tests/*"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.18.0",
+    "github": "^2.5.1",
+    "glob": "^7.1.1",
+    "mocha": "^3.2.0",
+    "multiline": "^1.0.2"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "core-object": "^2.0.6",
+    "git-repo-info": "^1.3.0",
+    "minimatch": "^3.0.3",
+    "rsvp": "^3.5.0",
+    "simple-git": "^1.57.0",
+    "lodash.clonedeep": "^4.5.0"
+  }
+}
